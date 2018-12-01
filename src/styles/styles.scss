@@ -1,0 +1,63 @@
+
+@import url(//db.onlinewebfonts.com/c/63f874d192fb3892d88d5e26f942b5e2?family=DS-Digital);
+@font-face {font-family: "DS-Digital";
+    src: url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.eot");
+    src: url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.svg#DS-Digital") format("svg");
+}
+
+#calculator {
+    margin: 5% 0 5% 0;
+    font-size: 22px;
+}
+#inputs {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 36px;
+}
+button:hover {
+    cursor: pointer;
+}
+#display {
+    background-color: #c6ddcb;
+    font-family: DS-Digital;
+    font-size: 26px;
+}
+#display-expression {
+    text-align: end;
+    display: block;
+    display: -webkit-box;
+    margin: 0 auto;
+    line-height: 1.2;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#display-current-item {
+    text-align: end;
+}
+button {
+    border: 1px solid darken(#e3dddb, 10%);
+}
+#clear {
+    background-color: #c0272a;
+    color: white;
+    height: 4.5rem;
+}
+.clear-activated {
+    background-color: darken(#c0272a, 20%) !important;
+}
+.number {
+    height: 5rem;
+}
+.operator {
+    height: 5rem;
+    background-color: #e3dddb;
+}
+.activated {
+    background-color: #6ba488;
+    color: white;
+}
